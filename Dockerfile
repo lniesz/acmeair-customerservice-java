@@ -11,3 +11,4 @@ RUN installUtility install --acceptLicense defaultServer || if [ $? -ne 22 ]; th
 COPY jvm.options /config/jvm.options
 
 COPY target/acmeair-customerservice-java-2.0.0-SNAPSHOT.war /config/apps/
+
