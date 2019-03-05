@@ -52,3 +52,6 @@ RUN mkdir -m 777 -p /config/resources
 
 ENV JAVA_HOME=$HOME/java \
     PATH=$HOME/java/jre/bin:$HOME/mvn/apache-maven/bin:$PATH
+
+RUN useradd -M -u 1001 default
+RUN chown -R default /home/default

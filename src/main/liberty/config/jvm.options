@@ -3,3 +3,4 @@
 -Dhttp.maxConnections=100
 -javaagent:resources/javametrics-agent.jar
 -Dorg.osgi.framework.bootdelegation=com.ibm.tivoli.itcam.*
+-Dorg.osgi.framework.bootdelegation=com.ibm.tivoli.itcam.*
